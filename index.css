@@ -1,0 +1,129 @@
+body {
+  background-color: #F5F5F5;
+  background-image: url(https://c.wallhere.com/photos/44/15/1920x1080_px_artwork_Black_Widow_Captain_America_Hawkeye_hulk_Iron_man_Loki-630734.jpg!d);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  width: 100%;
+}
+
+.box{
+  background-color: transparent;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  background-color: #a81f1f;
+  position: relative;
+  border-radius: 10px;
+  width: 20%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Bebas Neue;
+  color: white;
+  border-color: black;
+  text-align: center;
+
+
+}
+
+h2 {
+  text-align: center;
+  font-family: Bebas Neue;
+    background: -webkit-linear-gradient(45deg, #FF0000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px #a81f1f solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-caption {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+#tribute-info {
+  text-align: justify;
+  line-height: 1.5;
+  font-family: 'Barlow', sans-serif;
+  align-content: center;
+}
+
+#quote {
+  margin: auto;
+  text-align: center;
+    font-family: 'Barlow', sans-serif;
+  background: -webkit-linear-gradient(45deg, #FF0000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#down {
+  text-align: center;
+background: rgba(211,211,211);
+    font-family: 'Inconsolata', sans-serif;
+  
+}
+footer {
+  text-align: center;
+background: rgba(211,211,211,);
+    font-family: 'Inconsolata', sans-serif;
+  margin-top: 2%;
+  
+}
+
+@media (max-width: 900px){
+
+  body{
+    background-color: #F5F5F5;
+  background-image: url(https://c.wallhere.com/photos/44/15/1920x1080_px_artwork_Black_Widow_Captain_America_Hawkeye_hulk_Iron_man_Loki-630734.jpg!d);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  width: 100%;
+}
+}
+
+@media (max-width: 900px) {
+  .box {
+    width: 100%;
+  margin-left: 0%;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  #title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  #image {
+    width: 303px;
+    height: 159px;
+  }
+}
+
